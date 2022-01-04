@@ -1,0 +1,465 @@
+//全局背景色
+.app-main {
+  //background: #F3F5FA;
+  background: rgba(211, 217, 230, 0.4);
+}
+
+//搜索部分颜色
+.formQuery {
+  //padding: 22px !important;
+  padding: 22px 22px 0 22px;
+  margin: 15px 14px 10px 13px;
+  background: #ffffff;
+  //width: 1711px;
+  //height: 985px;
+  border: 1px solid #D3D9E6;
+}
+
+//内容背景颜色
+.form_content {
+  //width: 1721px;
+  //height: 462px;
+  margin: 0px 14px 0px 13px;
+  padding: 16px 16px 10px 22px;
+  //margin-top: 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(211, 217, 230, 1);
+}
+
+//内容背景颜色
+.form_content_pagination, .form_content_pagination_T {
+  //width: 1721px;
+  height: 95%;
+  //_height:462px;
+  //min-height:462px;
+  margin: 0px 14px 0px 13px;
+  padding: 16px 16px 30px 22px;
+  padding-bottom: none;
+  //margin-top: 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(211, 217, 230, 1);
+}
+
+//全局下拉框默认时input样式
+.el-input--medium .el-input__inner, .el-input--small .el-input__inner {
+  //width: 200px;
+  //height: 32px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #A8B9DC;
+}
+
+//全局下拉框选择时input样式
+.el-select .el-input.is-focus .el-input__inner {
+  //width: 120px;
+  //height: 32px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid rgba(50, 119, 255, 1);
+  //border: 2px solid rgba(49, 116, 250, 0.2);
+}
+
+//全局下拉框默认input样式
+.el-input__inner {
+  //width: 200px;
+  //height: 32px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #A8B9DC;
+}
+
+////下拉框滚动条
+//.el-scrollbar__bar.is-vertical {
+//  background: #A8B9DC;
+//  border-radius: 4px;
+//}
+//下拉框滚动条
+.el-scrollbar__thumb {
+  background: #A8B9DC;
+  border-radius: 4px;
+}
+
+//弹框内容滚动条
+.modalScrollbar {
+  height: 500px;
+  overflow: auto;
+
+  //修改overflow滚动条
+  ::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 5px solid transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2) inset;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+.modalScrollbarFooter {
+  margin-bottom: 30px;
+}
+
+//弹框有分页内容滚动条
+.modalScrollbarPagination {
+  height: 490px;
+  overflow: auto;
+
+  //修改overflow滚动条
+  ::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 5px solid transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2) inset;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+//弹框table margin-bottom
+.table-margin-bottom {
+  margin-bottom: 20px;
+}
+
+//内容边框
+.el-select-dropdown__list {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px 0px rgb(50 119 255 / 20%);
+}
+
+//下拉框
+.el-select-input301px {
+  .el-input--small .el-input__inner, .el-input--medium .el-input__inner {
+    width: 301px;
+  }
+}
+
+//下拉框
+.el-select-input275px {
+  .el-input--small .el-input__inner, .el-input--medium .el-input__inner {
+    width: 275px;
+  }
+}
+
+//input数字框
+.el-input-number301px .el-input-number--medium {
+  width: 301px;
+}
+
+//input输入框
+.el-input301px .el-input.is-disabled .el-input__inner {
+  width: 301px;
+}
+
+//input输入框
+.el-textarea301px .el-textarea.is-disabled .el-textarea__inner {
+  width: 301px;
+}
+
+//弹框700px start
+//下拉框
+.el-select-input700px {
+  .el-input--small .el-input__inner, .el-input--medium .el-input__inner {
+    width: 200px;
+  }
+}
+
+//input数字框
+.el-input-number700px .el-input-number--medium {
+  width: 200px;
+}
+
+//input输入框
+.el-input700px .el-input.is-disabled .el-input__inner, .el-input700px .el-input--medium .el-input__inner, .el-input700px .el-input--small .el-input__inner, .el-input700px .el-date-editor.el-input, .el-input700px .el-date-editor.el-input__inner {
+  width: 200px;
+}
+
+.el-input700pxT {
+  width: 200px;
+
+  .el-input.is-disabled .el-input__inner {
+    width: 200px;
+  }
+}
+
+//input输入框内含btn
+.el-input700pxBtn {
+  .el-form-item__content .el-input-group, .el-input, .el-input--medium, .is-disabled, .el-input-group, .el-input-group--append {
+    width: 200px;
+  }
+
+  .el-input.is-disabled .el-input__inner {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  //按钮重置颜色
+  .el-input-group--prepend .el-input__inner, .el-input-group__append {
+    background: white;
+  }
+}
+
+//input输入框
+.el-input700pxD {
+  .el-input.is-disabled .el-input__inner, .el-input--medium .el-input__inner, .el-input--small .el-input__inner {
+    width: 540px;
+  }
+}
+
+//input输入框
+.el-textarea700px .el-textarea.is-disabled .el-textarea__inner {
+  width: 200px;
+}
+
+//弹框700px end
+
+//全局修改下拉框内容选中选项样式
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+  //width: 120px;
+  //height: 72px;
+  background: rgba(50, 119, 255, 0.1);
+  //box-shadow: 0px 2px 8px 0px rgba(50, 119, 255, 0.2);
+
+  span {
+    //width: 97px;
+    //height: 12px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3277FF;
+    //line-height: 12px;
+  }
+}
+
+//全局修改下拉框内容默认选项样式
+.el-select-dropdown__item {
+  //width: 97px;
+  //height: 12px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  //line-height: 12px;
+}
+
+//全局修改table距离顶部距离
+.mb8 {
+  margin-bottom: 16px !important;
+}
+
+//全局修改搜索部分右边小按钮
+.el-row {
+  padding-right: 3px;
+}
+
+//全局修改表头
+.el-table .el-table__header-wrapper th, .el-table .el-table__fixed-header-wrapper th {
+  background-color: rgba(24, 144, 255, 0.1) !important;
+  //width: 1675px;
+  height: 56px;
+}
+
+//table鼠标滑过颜色
+.el-table__body-wrapper tr:hover > td {
+  background: rgba(24, 144, 255, 0.05) !important;
+}
+
+//分页 全局修改
+//默认状态
+.el-pagination.is-background .btn-prev, .el-pagination.is-background .btn-next, .el-pagination.is-background .el-pager li {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #A8B9DC;
+}
+
+//选中状态
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  background: rgba(24, 144, 255, 1);
+  border-radius: 4px;
+}
+
+//弹框table
+.el-dialog__body {
+  padding: 0px 20px 10px 20px;
+}
+
+//弹框距离顶部位置
+.el-dialog__wrapper {
+  top: -30px;
+}
+
+//弹框头部颜色
+.el-dialog__header {
+  background: rgba(50, 119, 255, 0.1);
+  height: 50px;
+  //box-shadow: 0px 2px 8px 0px rgba(50, 119, 255, 0.1), 0px -1px 0px 0px #E4E4E4;
+  box-shadow: 0px -1px 0px 0px #E4E4E4;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px rgba(211, 217, 230, 1) solid;
+}
+
+//行内删除操作
+.delBtn {
+  //width: 28px;
+  //height: 20px;
+  //font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  //font-weight: 400;
+  color: #FF2C10 !important;
+  line-height: 20px;
+}
+
+//行内删除操作
+.greenBtn {
+  //width: 28px;
+  //height: 20px;
+  //font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  //font-weight: 400;
+  color: #2BCB40 !important;
+  line-height: 20px;
+}
+
+//深蓝色按钮
+.smaltBtn {
+  //width: 76px;
+  height: 32px;
+  background: #3277FF;
+  border-radius: 4px;
+
+  i, span {
+    //width: 60px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+  }
+}
+
+//浅蓝色按钮
+.mainBtn {
+  //width: 76px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #3277FF;
+  //background: #e8f4ff;
+
+  i, span {
+    //width: 60px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #3277FF;
+    line-height: 20px;
+  }
+}
+
+//边框
+.borderBtn {
+  //width: 76px;
+
+  height: 32px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 13px;
+
+  span {
+    margin-left: 4px;
+    color: #3277FF;
+    line-height: 20px;
+    padding: 6px 8px;
+    color: #3277FF;
+    //border-bottom: 1px solid #3277FF;
+  }
+
+}
+
+.hrBoder {
+  //width: 1156px;
+  height: 1px;
+  background: rgba(174, 191, 223, 0.4);
+  border-bottom: 1px solid rgba(174, 191, 223, 0.4);
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.table-margin-top22 {
+  margin-top: 11px;
+}
+
+.table-margin-bottom22 {
+  margin-bottom: 22px;
+}
+
+//盘库页面
+.coalHeapInventoryName_padding {
+  padding: 13px 82px;
+  margin-left: -46px;
+  //background: red;
+}
+
+.coalHeapInventoryName_height {
+  //padding: 22px !important;
+  padding: 0px !important;
+  //background: red;
+  height: 22px;
+}
+.coalHeapInventoryName_table{
+  .el-table__body-wrapper, .is-scrolling-none{
+    table{
+      th,td{
+        //padding: 0 !important;
+      }
+      .el-table__row,.el-table__row--striped ,.el-table__row--level-1{
+        .is-center,.is-left{
+          .cell{
+            //padding: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

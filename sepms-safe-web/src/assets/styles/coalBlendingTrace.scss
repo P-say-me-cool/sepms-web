@@ -1,0 +1,553 @@
+//1start
+.coalBlendingStage_wrap_up {
+  border-bottom: 4px solid rgba(43, 203, 64, 1);
+  border-right: 1px solid rgba(43, 203, 64, 1);
+  width: 80px;
+  height: 199px;
+}
+
+.coalBlendingStage_wrap_next {
+  border-bottom: 4px solid rgba(43, 203, 64, 1);
+  border-left: 1px solid rgba(43, 203, 64, 1);
+  width: 80px;
+  height: 199px;
+}
+
+.coalBlendingStage_wrap_next_centre {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.coalBlendingStage_wrap_next_centre_border {
+  border: 2px solid rgba(43, 203, 64, 1);
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin-left: -27px;
+  margin-top: -35px;
+}
+
+.coalBlendingStage_wrap_next_centre_border_order {
+  height: 35px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 35px;
+  text-align: center;
+}
+
+.coalBlendingStage_wrap_next_centre_text_one {
+  color: #4A4A4A;
+  text-align: center;
+  width: 64px;
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #4A4A4A;
+  line-height: 22px;
+  margin-top: -28px;
+  margin-left: 42px;
+}
+
+.coalBlendingStage_wrap_next_centre_text_two {
+  margin-top: 83px;
+  border-bottom: 1px solid rgba(43, 203, 64, 1);
+  width: 70px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+.coalBlendingStage_wrap_next_centre_text_three {
+  width: 121px;
+  height: 17px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  line-height: 17px;
+  -webkit-background-clip: text;
+}
+
+//1end
+//2start
+.schedulingPhase_wrap_up {
+  border-top: 4px solid rgba(50, 119, 255, 1);
+  border-right: 1px solid rgba(50, 119, 255, 1);
+  width: 81px;
+  height: 199px;
+  margin-top: 195px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.schedulingPhase_wrap_up_text_one {
+  margin-top: 106px;
+  //border-bottom: 1px solid rgba(50, 119, 255, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  margin-left: -70px
+}
+
+.schedulingPhase_wrap_up_text_two {
+  margin-top: 8px;
+  //border-bottom: 1px solid rgba(50, 119, 255, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  margin-left: -70px
+}
+
+.schedulingPhase_wrap_up_text_three {
+  //margin-top: 4px;
+  height: 17px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  line-height: 17px;
+  margin-left: -70px;
+}
+
+.schedulingPhase_wrap_up_text_four {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: -8px;
+}
+
+.schedulingPhase_wrap_up_text_four_text {
+  color: #4A4A4A;
+  width: 64px;
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #4A4A4A;
+  line-height: 22px;
+}
+
+.schedulingPhase_wrap_next {
+  border-top: 4px solid rgba(50, 119, 255, 1);
+  border-left: 1px solid rgba(50, 119, 255, 1);
+  width: 80px;
+  height: 199px;
+  margin-top: 195px;
+}
+
+.schedulingPhase_wrap_next_border {
+  border: 2px solid rgba(50, 119, 255, 1);
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin-top: 195px;
+  margin-left: -18px;
+}
+
+.schedulingPhase_wrap_next_text {
+  height: 35px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 35px;
+  text-align: center;
+}
+
+//2end
+//3start
+.forCoalStage_wrap_up {
+  border-bottom: 4px solid rgba(255, 192, 47, 1);
+  border-right: 1px solid rgba(255, 192, 47, 1);
+  width: 80px;
+  height: 199px;
+}
+
+.forCoalStage_wrap_next {
+  border-bottom: 4px solid rgba(255, 192, 47, 1);
+  border-left: 1px solid rgba(255, 192, 47, 1);
+  width: 80px;
+  height: 199px;
+}
+
+.forCoalStage_wrap_next_centre {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.forCoalStage_wrap_next_centre_border {
+  border: 2px solid rgba(255, 192, 47, 1);
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin-left: -27px;
+  margin-top: -35px;
+}
+
+.forCoalStage_wrap_next_centre_text {
+  height: 35px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 35px;
+  text-align: center;
+}
+
+.forCoalStage_wrap_next_centre_text_title {
+  color: #4A4A4A;
+  text-align: center;
+  width: 64px;
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #4A4A4A;
+  line-height: 22px;
+  margin-top: -28px;
+  margin-left: 42px;
+}
+
+.forCoalStage_wrap_next_centre_text_one {
+  margin-top: 0px;
+  //border-bottom: 1px solid rgba(255, 192, 47, 1);
+  width: 70px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+}
+
+.forCoalStage_wrap_next_centre_text_two {
+  width: 121px;
+  height: 17px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  line-height: 17px;
+  -webkit-background-clip: text;
+}
+
+.forCoalStage_wrap_next_centre_text_three {
+  margin-top: 4px;
+  border-bottom: 1px solid rgba(255, 192, 47, 1);
+  width: 75px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+.forCoalStage_wrap_next_centre_text_four {
+  margin-top: 4px;
+  border-bottom: 1px solid rgba(255, 192, 47, 1);
+  width: 75px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+.forCoalStage_wrap_next_centre_text_five {
+  margin-top: 4px;
+  border-bottom: 1px solid rgba(255, 192, 47, 1);
+  width: 65px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+.forCoalStage_wrap_next_centre_text_six {
+  margin-top: 4px;
+  border-bottom: 1px solid rgba(255, 192, 47, 1);
+  width: 65px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+.forCoalStage_wrap_next_centre_text_seven {
+  margin-top: 4px;
+  border-bottom: 1px solid rgba(255, 192, 47, 1);
+  width: 65px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+//3end
+//4start
+.cokingStage_wrap_up {
+  border-top: 4px solid rgba(43, 203, 64, 1);
+  border-right: 1px solid rgba(43, 203, 64, 1);
+  width: 80px;
+  height: 199px;
+  margin-top: 195px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cokingStage_wrap_up_text_one {
+  margin-top: 67px;
+  border-bottom: 1px solid rgba(43, 203, 64, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  //margin-left: -70px;
+  cursor:pointer;
+}
+
+.cokingStage_wrap_up_text_two {
+  margin-top: 8px;
+  //border-bottom: 1px solid rgba(43, 203, 64, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  margin-left: -70px
+}
+
+.cokingStage_wrap_up_text_three {
+  margin-top: 8px;
+  //border-bottom: 1px solid rgba(43, 203, 64, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  margin-left: -70px
+}
+
+.cokingStage_wrap_up_text_four {
+  margin-top: 8px;
+  //border-bottom: 1px solid rgba(43, 203, 64, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  margin-left: -70px;
+}
+
+.cokingStage_wrap_up_text_five {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: -8px;
+}
+
+.cokingStage_wrap_up_text_five_text {
+  color: #4A4A4A;
+  width: 64px;
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #4A4A4A;
+  line-height: 22px;
+}
+
+.cokingStage_wrap_next {
+  border-top: 4px solid rgba(43, 203, 64, 1);
+  border-left: 1px solid rgba(43, 203, 64, 1);
+  width: 80px;
+  height: 199px;
+  margin-top: 195px
+}
+
+.cokingStage_wrap_next_border {
+  border: 2px solid rgba(43, 203, 64, 1);
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin-top: 195px;
+  margin-left: -18px;
+}
+
+.cokingStage_wrap_next_text {
+  height: 35px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 35px;
+  text-align: center;
+}
+
+//4end
+//5start
+.cokeQuenchingStage_wrap_up {
+  border-bottom: 4px solid rgba(50, 119, 255, 1);
+  border-right: 1px solid rgba(50, 119, 255, 1);
+  width: 80px;
+  height: 199px;
+}
+
+.cokeQuenchingStage_wrap_next {
+  border-bottom: 4px solid rgba(50, 119, 255, 1);
+  border-left: 1px solid rgba(50, 119, 255, 1);
+  width: 80px;
+  height: 199px;
+}
+
+.cokeQuenchingStage_wrap_next_up {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.cokeQuenchingStage_wrap_next_border {
+  border: 2px solid rgba(50, 119, 255, 1);
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin-left: -27px;
+  margin-top: -35px;
+}
+
+.cokeQuenchingStage_wrap_next_text {
+  height: 35px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 35px;
+  text-align: center;
+}
+
+.cokeQuenchingStage_wrap_next_text_title {
+  color: #4A4A4A;
+  text-align: center;
+  width: 64px;
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #4A4A4A;
+  line-height: 22px;
+  margin-top: -28px;
+  margin-left: 42px;
+}
+
+.cokeQuenchingStage_wrap_next_text_one {
+  margin-top: 83px;
+  border-bottom: 1px solid rgba(50, 119, 255, 1);
+  width: 70px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  cursor:pointer;
+}
+
+//5end
+//6start
+.yunJiaoPhase_wrap_up {
+  border-top: 4px solid rgba(255, 192, 47, 1);
+  border-right: 1px solid rgba(255, 192, 47, 1);
+  width: 80px;
+  height: 199px;
+  margin-top: 195px;
+  text-align: right;
+  //padding-right: 10px;
+}
+
+.yunJiaoPhase_wrap_text_one {
+  margin-top: 90px;
+  border-bottom: 1px solid rgba(255, 192, 47, 1);
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4A4A4A;
+  line-height: 20px;
+  //margin-left: -70px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+
+.yunJiaoPhase_wrap_up_text_two {
+  font-size: 14px;
+  margin-top: 95px;
+  margin-left: -8px;
+}
+
+.yunJiaoPhase_wrap_up_text_two_text {
+  color: #4A4A4A;
+  width: 64px;
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #4A4A4A;
+  line-height: 22px;
+}
+
+.yunJiaoPhase_wrap_next {
+  border-top: 4px solid rgba(255, 192, 47, 1);
+  border-left: 1px solid rgba(255, 192, 47, 1);
+  width: 80px;
+  height: 199px;
+  margin-top: 195px
+}
+
+.yunJiaoPhase_wrap_next_border {
+  border: 2px solid rgba(255, 192, 47, 1);
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin-top: 195px;
+  margin-left: -18px;
+}
+
+.yunJiaoPhase_wrap_next_title {
+  height: 35px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 35px;
+  text-align: center;
+}
+
+//6end

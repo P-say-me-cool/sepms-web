@@ -1,0 +1,111 @@
+{
+  "name": "MES",
+  "version": "1.0.0",
+  "description": "MES管理系统",
+  "author": "MES",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build:prod-dongming": "vue-cli-service build && scp -P 51419 -r dist root@172.16.0.75:/home/risun-mes/ && scp -P 51419 -r dist root@172.16.0.100:/home/risun-mes/",
+    "build:prod-dingzhou": "vue-cli-service build && scp -r dist root@172.16.0.76:/home/mes && scp -r dist root@172.16.0.146:/home/mes",
+    "build:stage": "vue-cli-service build --mode staging",
+    "build:test": "vue-cli-service build --mode staging && scp -r dist root@172.16.200.225:/data/risun-mes-test/ && scp -r dist root@172.16.200.239:/data/risun-mes-test/",
+    "preview": "node build/index.js --preview",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "vue",
+    "admin",
+    "dashboard",
+    "element-ui",
+    "boilerplate",
+    "admin-template",
+    "management-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/y_project/RuoYi-Vue.git"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "0.4.0",
+    "af-table-column": "^1.0.3",
+    "axios": "^0.21.0",
+    "clipboard": "2.0.6",
+    "core-js": "3.8.1",
+    "crypto-js": "^4.0.0",
+    "docxtemplater": "^3.22.2",
+    "element-ui": "2.15.0",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.2",
+    "fuse.js": "6.4.3",
+    "highlight.js": "9.18.5",
+    "jquery": "^3.6.0",
+    "js-beautify": "1.13.0",
+    "js-cookie": "2.2.1",
+    "jsencrypt": "3.0.0-rc.1",
+    "jszip": "^2.6.1",
+    "jszip-utils": "^0.1.0",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "luckyexcel": "^1.0.1",
+    "luckysheet": "^2.1.13",
+    "moment": "^2.29.1",
+    "nprogress": "0.2.0",
+    "quill": "1.3.7",
+    "screenfull": "5.0.2",
+    "sortablejs": "1.10.2",
+    "v-fit-columns": "^0.2.0",
+    "vue": "2.6.12",
+    "vue-count-to": "1.0.13",
+    "vue-cropper": "0.5.5",
+    "vue-grid-layout": "^2.3.12",
+    "vue-router": "3.4.9",
+    "vue-to-pdf": "^1.0.0",
+    "vuedraggable": "2.24.3",
+    "vuex": "3.6.0",
+    "vxe-table": "^3.3.12",
+    "x-data-spreadsheet": "^1.1.8",
+    "xe-utils": "^3.3.2",
+    "xlsx": "^0.16.9",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.4.6",
+    "@vue/cli-plugin-eslint": "4.4.6",
+    "@vue/cli-service": "4.4.6",
+    "babel-eslint": "10.1.0",
+    "chalk": "4.1.0",
+    "connect": "3.6.6",
+    "echarts": "^5.1.2",
+    "eslint": "7.15.0",
+    "eslint-plugin-vue": "7.2.0",
+    "lint-staged": "10.5.3",
+    "runjs": "4.4.2",
+    "sass": "1.32.0",
+    "sass-loader": "10.1.0",
+    "script-ext-html-webpack-plugin": "2.1.5",
+    "script-loader": "^0.7.2",
+    "svg-sprite-loader": "5.1.1",
+    "vue-template-compiler": "2.6.12",
+    "webpack-cli": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
